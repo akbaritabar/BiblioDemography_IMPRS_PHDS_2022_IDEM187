@@ -2,7 +2,7 @@
 
 **NOTE**: Please read this document first, before watching videos, or checking other directories.
 
-- **Course description**: https://www.demogr.mpg.de/en/career_6122/international_advanced_studies_in_demography_6682/courses_6931/topics_in_digital_and_computational_demography_11309
+- **Course description**: [https://www.demogr.mpg.de/en/career_6122/international_advanced_studies_in_demography_6682/courses_6931/topics_in_digital_and_computational_demography_11309](https://www.demogr.mpg.de/en/career_6122/international_advanced_studies_in_demography_6682/courses_6931/topics_in_digital_and_computational_demography_11309)
 - **This repository is for**: Day 4, November 17th 2022
 - **Topics covered in day 4**: Using large-scale bibliometric data for demographic research; Advantages and pitfalls of using Scopus data to trace internal and international scholarly migration worldwide
 - **Instructor**: [Aliakbar Akbaritabar](https://akbaritabar.github.io/) (![Github](http://i.imgur.com/9I6NRUm.png): [Akbaritabar](https://github.com/akbaritabar) | ![Twitter](http://i.imgur.com/wWzX9uB.png): [@akbaritabar](https://twitter.com/akbaritabar) | [mastodon.social/@Akbaritabar](https://mastodon.social/@Akbaritabar) | Email: akbaritabar@demogr.mpg.de (please add "IMPRS-PHDS-2022-IDEM187" in the email's subject line))
@@ -12,9 +12,9 @@ Aliakbar Akbaritabar (Ali) is a computational social scientist with a background
 
 He joined the Max Planck Institute for Demographic Research (MPIDR) as a research scientist from the German Centre for Higher Education Research and Science Studies (DZHW) and German Competence Centre for Bibliometrics.
 
-Ali holds a PhD in economic sociology and labor studies from the University of Milan, and a PhD in sociology (social welfare) from the Allameh Tabataba'i University of Tehran. His work focuses on themes related (but not limited) to science of science, scholarly migration, social networks, collaboration networks, and computational social science. He looks forward to collaborate on research ideas close to these themes, using computational tools and techniques to answer social scientific questions. He is @akbaritabar on Twitter (https://twitter.com/akbaritabar) or Mastodon (https://mastodon.social/@Akbaritabar).
+Ali holds a PhD in economic sociology and labor studies from the University of Milan, and a PhD in sociology (social welfare) from the Allameh Tabataba'i University of Tehran. His work focuses on themes related (but not limited) to science of science, scholarly migration, social networks, collaboration networks, and computational social science. He looks forward to collaborate on research ideas close to these themes, using computational tools and techniques to answer social scientific questions. He is @akbaritabar on Twitter ([https://twitter.com/akbaritabar](https://twitter.com/akbaritabar)) or Mastodon ([https://mastodon.social/@Akbaritabar](https://mastodon.social/@Akbaritabar)).
 
-Here (https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/news/how_to_use_bibliometric_data_for_demographic_research_10784) you could read more on how we re-purpose bibliometric data to answer social science and demographic questions.
+Here ([https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/news/how_to_use_bibliometric_data_for_demographic_research_10784](https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/news/how_to_use_bibliometric_data_for_demographic_research_10784)) you could read more on how we re-purpose bibliometric data to answer social science and demographic questions.
 
 # Outline of the lecture (90 minutes pre-recorded videos)
 1. Introduction (15 minutes, [video 1])
@@ -42,11 +42,11 @@ Here (https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/new
 
 ## Reading materials
 ### Required
-- Miranda-González, A., Aref, S., Theile, T., & Zagheni, E. (2020). Scholarly migration within Mexico: Analyzing internal migration among researchers using Scopus longitudinal bibliometric data. EPJ Data Science, 9(1). https://doi.org/10.1140/epjds/s13688-020-00252-9
+- Miranda-González, A., Aref, S., Theile, T., & Zagheni, E. (2020). Scholarly migration within Mexico: Analyzing internal migration among researchers using Scopus longitudinal bibliometric data. EPJ Data Science, 9(1). [https://doi.org/10.1140/epjds/s13688-020-00252-9](https://doi.org/10.1140/epjds/s13688-020-00252-9)
 
 ### Highly recommended
-- Ganguli, I. (2015). Immigration and Ideas: What Did Russian Scientists “Bring” to the United States? Journal of Labor Economics, 33(S1), S257–S288. https://doi.org/10.1086/679741
-- Cole, J. R., & Zuckerman, H. (1987). Marriage, Motherhood and Research Performance in Science. Scientific American, 256(2), 119–125. JSTOR. https://doi.org/10.1038/scientificamerican0287-119
+- Ganguli, I. (2015). Immigration and Ideas: What Did Russian Scientists “Bring” to the United States? Journal of Labor Economics, 33(S1), S257–S288. [https://doi.org/10.1086/679741](https://doi.org/10.1086/679741)
+- Cole, J. R., & Zuckerman, H. (1987). Marriage, Motherhood and Research Performance in Science. Scientific American, 256(2), 119–125. JSTOR. [https://doi.org/10.1038/scientificamerican0287-119](https://doi.org/10.1038/scientificamerican0287-119)
 
 ## Course assignments
 
