@@ -1,0 +1,9 @@
+row_id,name,affiliation,country,city,start_date,end_date,latitude,longitude
+1,Example_Author_1,University of Amsterdam,NLD,amsterdam,1988-09-01,1993-12-31,52.377956,4.89707
+2,Example_Author_1,University of Amsterdam,NLD,amsterdam,1986-09-01,1988-06-24,52.377956,4.89707
+3,Example_Author_1,University of Groningen,NLD,groningen,2011-03-01,2021-03-30,53.219383,6.566502
+4,Example_Author_1,University of Amsterdam,NLD,amsterdam,2001-09-01,2007-08-30,52.377956,4.89707
+5,Example_Author_1,Utrecht University,NLD,utrecht,2000-07-01,2001-08-30,52.092876,5.10448
+6,Example_Author_1,Utrecht University,NLD,utrecht,1995-01-01,2000-06-30,52.092876,5.10448
+7,Example_Author_1,Utrecht University,NLD,utrecht,1993-07-01,1994-12-30,52.092876,5.10448
+8,Example_Author_1,Sorbonne University,FRA,paris,2008-09-01,2011-02-28,48.864716,2.349014

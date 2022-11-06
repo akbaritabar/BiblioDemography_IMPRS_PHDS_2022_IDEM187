@@ -1,0 +1,30 @@
+# please rename the environment if someone else on the same computer might use this name (e.g., add a number to "bibliodemography")
+name: bibliodemography
+channels:
+  - conda-forge
+  - defaults
+# windows
+prefix: C:\ProgramData\Anaconda3\envs\
+# mac
+# prefix: /Users/YOUR-USERNAME/opt/anaconda3/envs/
+dependencies:
+  - python=3.*
+  - numpy
+  - pandas
+# for parallelization
+  - dask
+  - pyarrow
+  - python-graphviz
+# a lightweight Python IDE
+  - jupyterlab
+# for web scraping
+  - beautifulsoup4
+  - lxml
+  - requests
+# for text analysis
+  - nltk
+  - spacy
+  - pydash
+# for network analysis
+  - python-igraph
+  - pycairo
