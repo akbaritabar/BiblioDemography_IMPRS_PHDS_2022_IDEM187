@@ -1,7 +1,7 @@
-# exclude licensed reading materials from git
-
 # Ignore everything in this directory
 *
 # Except these files
 !.gitignore
 !Readme.md
+08_HU_seminar_network_analysis.pdf
+10_Structural_topic_models_an_example.pdf

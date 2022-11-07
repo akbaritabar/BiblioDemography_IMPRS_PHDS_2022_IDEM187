@@ -10,13 +10,6 @@ I am going to briefly go over these topics:
 2. Data preparation using Dask in Python
 3. Further processing and analyzing data with SQL, using DuckDB and DBeaver
 
-### -1. Video recording of the tutorial
-
-A video recording of the tutorial is publicly available here on YouTube: [https://youtu.be/pYDVrBcIuYI](https://youtu.be/pYDVrBcIuYI)
-
-<img width="1427" alt="image" src="https://user-images.githubusercontent.com/15649908/155894272-7c5e5849-3624-4ba5-bc53-c3b5d6af5751.png">
-
-
 ### 0. Why do we need to learn more about parallelization and out of memory computation?
 
 First thing that might come to mind is "*why do I need to bother with out of memory computing and parallelization when there is so much RAM available these days?*"

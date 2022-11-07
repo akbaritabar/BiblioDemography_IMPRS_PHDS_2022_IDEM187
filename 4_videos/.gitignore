@@ -1,7 +1,6 @@
-# exclude licensed reading materials from git
-
 # Ignore everything in this directory
 *
 # Except these files
 !.gitignore
 !Readme.md
+
