@@ -16,18 +16,18 @@ Ali holds a PhD in economic sociology and labor studies from the University of M
 
 Here ([https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/news/how_to_use_bibliometric_data_for_demographic_research_10784](https://www.demogr.mpg.de/en/news_events_6123/news_press_releases_4630/news/how_to_use_bibliometric_data_for_demographic_research_10784)) you could read more on how we re-purpose bibliometric data to answer social science and demographic questions.
 
-# Outline of the lecture (90 minutes pre-recorded videos)
-1. Introduction (15 minutes, [video 1])
+# Outline of the lecture (83 minutes pre-recorded videos)
+1. Introduction (23 minutes, [video 1])
     - Welcome and introduction
     - What is bibliometric data?
     - What type of questions can be studied using bibliometric data?
     - What type of demographic questions can be studied using bibliometric data?
     - Limitations and pitfalls of using bibliometric data.
-2. Data Science skills to use bibliometric data (45 minutes, [videos: 2_1, 2_2])
+2. Data Science skills to use bibliometric data (34 minutes, [videos: 2_1 (21 minutes), 2_2 (13 minutes)])
     - [video 2_1] Introduction to parallelised analysis of large-scale bibliometric, text and network data (with Dask in Python, DuckDB and DBeaver in SQL)
     - [video 2_2] Hands-on example of parallelised analysis of bibliometric data
     - [video 2_2] Hands-on example on use of text and network analysis
-3. Example empirical study using bibliometric data (30 minutes, [video 3])
+3. Example empirical study using bibliometric data (26 minutes, [video 3])
     - Internal and international migration of scholars worldwide: Trends, patterns, and inter-relationships
 
 # Important setup instructions for participants
