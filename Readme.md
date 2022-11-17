@@ -158,3 +158,8 @@ Evaluation of the course will be through a combination of a final exam (with two
 
 ![Yang 2](5_Student_visualizations_code_polls/yang_international_mobility_events.png)
 
+# Poll of students on drivers of scholarly migration
+
+**Word cloud of student's ideas**
+
+![Word cloud](5_Student_visualizations_code_polls/Poll_on_drivers_of_scholarly_migration.PNG)
