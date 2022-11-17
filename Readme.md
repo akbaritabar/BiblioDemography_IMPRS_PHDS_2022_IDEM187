@@ -128,11 +128,11 @@ Evaluation of the course will be through a combination of a final exam (with two
 
 **Luiqing Yang 2**
 
-![Luiqing Yang 2](5_Student_visualizations_code_polls/luiqing_yang_international_mobility_events)
+![Luiqing Yang 2](5_Student_visualizations_code_polls/luiqing_yang_international_mobility_events.png)
 
 **Yuan Peng**
 
-![Yuan Peng](5_Student_visualizations_code_polls/mobility trajectory_Yuan_Peng.png)
+![Yuan Peng](5_Student_visualizations_code_polls/mobility_trajectory_Yuan_Peng.png)
 
 **Pietro Violo**
 
