@@ -1,0 +1,90 @@
+---
+title: "Mobility Trajectory"
+author: "Egor Kotov"
+date: "2022-11-17"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+#-------------------------Package Installer--------------------------
+# load packages and install if missing
+# thanks to Richard Schwinn for the original code, http://stackoverflow.com/a/33876492
+# this code has been improved over time by Egor Kotov
+
+# list the packages you need
+p <- c("knitr", "data.table", "tidyverse", "sf", "lwgeom", "s2", "lubridate", "zoo", "plotly")
+
+# this is a package loading function
+loadpacks <- function(package.list = p){
+new.packages <- package.list[!(package.list %in% installed.packages()[,'Package'])]
+  if(length(new.packages)) {
+    install.packages(new.packages, Ncpus = parallel::detectCores(), type = "binary")
+  }
+lapply(eval(package.list), require, character.only = TRUE)
+}
+
+loadpacks(p) # calling function to load and/or install packages
+rm(loadpacks, p) # cleanup namespace
+#----------------------End of Package Installer----------------------
+
+#------------------------------Options-------------------------------
+
+data.table::setDTthreads(threads = parallel::detectCores())
+options(scipen = 999)
+
+#---------------------------End of Options---------------------------
+
+```
+
+
+```{r}
+traj <- fread("data/example_mobility_trajectory.csv")
+  events <- fread("data/example_life_events.csv")
+  
+  # traj; events
+
+  setorder(traj, end_date)
+  traj[ , end_year := year(end_date), ]
+  
+  city_order <- traj$city
+  city_order_dt <- data.table(from = traj$city, to = c(traj$city[-1], "groningen"))
+  traj <- traj %>% rename(from = city) %>% left_join(city_order_dt, by = "from")
+  
+  
+  timeline <- data.table(end_year = min(traj$end_year):max(traj$end_year))
+  timeline <- timeline %>% left_join(traj %>% select(affiliation, end_year, from, to), by = "end_year") %>%
+    mutate(last_city = paste0("move_to: ", from)) %>% 
+    mutate(
+      affiliation = na.locf(affiliation, fromLast = TRUE),
+      from = na.locf(from, fromLast = TRUE),
+      to = na.locf(to, fromLast = TRUE))
+  
+  
+  unique_locations <- traj %>% select(from, latitude, longitude) %>% unique() %>% st_as_sf(coords = c("longitude", "latitude"), crs = 4326)
+  sf::sf_use_s2(T)
+  geo_dist_matrix <- st_distance(unique_locations, by_element = F)
+  geo_dist_dt <- as.data.table(geo_dist_matrix)
+  setnames(geo_dist_dt, old = 1:ncol(geo_dist_dt), unique_locations$from)
+  geo_dist_dt[ , from := unique_locations$from]
+  geo_dist_dt <- geo_dist_dt %>% pivot_longer(cols = unique_locations$from, names_to = "to", values_to = "dist")
+  geo_dist_dt <- geo_dist_dt %>% mutate(dist_km = round(as.numeric(dist)/1000, 2)) %>% select(-dist) %>% setDT()
+  geo_dist_dt
+  
+  timeline <- timeline %>% left_join(geo_dist_dt, by = c("from", "to"))
+  timeline <- timeline %>% mutate(cum_dist_km = cumsum(dist_km))
+  
+
+```
+
+
+
+
+```{r}
+pp <- plot_ly(data = timeline, x = ~end_year, y = ~cum_dist_km, z = ~ from, type = 'scatter3d', mode = 'lines') %>%
+    add_markers() %>% 
+    layout(title = '\nMobility trajectory', scene = list(xaxis=list(title = 'Year'),yaxis=list(title = 'Total distnace travelled'),zaxis=list(title="City")))
+  pp
+
+```

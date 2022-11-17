@@ -97,3 +97,64 @@ We will have a brief discussion (and interactive quiz) on the reading materials.
 ## Course evaluation
 
 Evaluation of the course will be through a combination of a final exam (with two multiple choice questions), responses to assignments, and activity during the live session's discussions.
+
+# Student visualizations of the "mobility trajectory" assignment with their names (on alphabetical order)
+
+(Please let me know if there is a mistake in the names, thanks)
+
+**Abdelilah Bouhamidi**
+
+![Abdelilah Bouhamidi](5_Student_visualizations_code_polls/Abdelilah_Bouhamidi.png)
+
+**Anna Bulina**
+
+![Anna_Bulina](5_Student_visualizations_code_polls/Anna_Bulina.png)
+
+**Edith Darin**
+
+![Edith Darin](5_Student_visualizations_code_polls/Edith_Darin_mobility.gif)
+
+**Egor Kotov**
+
+![Egor Kotov](5_Student_visualizations_code_polls/EKotov_mobility_trajectory_2.png)
+
+**Hisrael Passarelli**
+
+![Hisrael Passarelli](5_Student_visualizations_code_polls/Hisrael_Passarelli.png)
+
+**Luiqing Yang**
+
+![Luiqing Yang](5_Student_visualizations_code_polls/luiqing_yang_internal_mobility_events.png)
+
+**Luiqing Yang 2**
+
+![Luiqing Yang 2](5_Student_visualizations_code_polls/luiqing_yang_international_mobility_events)
+
+**Yuan Peng**
+
+![Yuan Peng](5_Student_visualizations_code_polls/mobility trajectory_Yuan_Peng.png)
+
+**Pietro Violo**
+
+![Pietro Violo](5_Student_visualizations_code_polls/Pietro_Violo.png)
+
+**Sara Ronnkvist**
+
+![Sara Ronnkvist](5_Student_visualizations_code_polls/Sara_Ronnkvist.png)
+
+**Thiago Malaguth**
+
+![Thiago Malaguth](5_Student_visualizations_code_polls/Thiago_Malaguth_correct.png)
+
+**Vincent Ramos**
+
+![Vincent Ramos](5_Student_visualizations_code_polls/vincent_ramos_mobtraplot.png)
+
+**Yang**
+
+![Yang](5_Student_visualizations_code_polls/yang_internal_mobility_events.png)
+
+**Yang 2**
+
+![Yang 2](5_Student_visualizations_code_polls/yang_international_mobility_events.png)
+
