@@ -100,6 +100,10 @@ Evaluation of the course will be through a combination of a final exam (with two
 
 # Student visualizations of the "mobility trajectory" assignment with their names (on alphabetical order)
 
+This mobility trajectory that was used for the assignment was a mixture of real data and some noise that I added and made-up life events to inspire students to merge demographic life events with scientific mobility in creative visualizations
+
+All visualizations are also posted publicly on Twitter (with students prior permission): https://twitter.com/Akbaritabar/status/1593295470587158528?s=20&t=0StqG3-VIVTp_vWfsFEKDw and under #BiblioDemography hashtag here: https://twitter.com/hashtag/BiblioDemography?src=hashtag_click&f=live
+
 (Please let me know if there is a mistake in the names, thanks)
 
 **Abdelilah Bouhamidi**
